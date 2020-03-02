@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Marko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
@@ -15,7 +19,7 @@
     <style>
         .img1>img {
             border-radius: 50%;
-            border: 5px solid blue;
+            border: 15px solid rgb(241, 63, 131)
 
         }
 
@@ -33,7 +37,7 @@
         }
 
         .container {
-            width: 80%;
+            width: 100%;
         }
 
         .d-flex>img {
@@ -73,8 +77,12 @@
             background-color: rgb(24, 143, 212);
         }
 
-        #btn {
+        .btn {
             margin-right: 500px;
+        }
+        #tstyle {
+            font-family: 'Marko One' ;
+
         }
     </style>
 </head>
@@ -83,24 +91,25 @@
     <div class="container-fluid">
         <div class="container">
             <div class="img1 text-center">
-                <img src="/home/masai/Downloads/gangireddy.jpeg" height="150px" width="150px" />
+                <img src="./source/gangireddy.jpeg" height="150px" width="150px" />
             </div>
+            <br>
             <h1 id="name">Gangireddy Kondreddy</h1>
             <br>
             <h5 id="roll">Full Stack Developer</h5>
             <br>
-            <div class="row text-center py-2">
-                <div class="col-sm-12 col-lg-4 d-flex">
+            <div class="row text-center bg-primary py-2">
+                <div class="col-sm-12 col-lg-4 d-flex text-white">
                     <i class="fa fa-map-marker mx-2"></i>
                     <h6>Banglore,India</h6>
                 </div>
-                <div class="col-sm-12 col-lg-4 d-flex">
+                <div class="col-sm-12 col-lg-4 d-flex text-white">
                     <i class="fa fa-phone-square mx-2"></i>
                     <h6>+91 911 0379 304</h6>
                 </div>
-                <div class="col-sm-12 col-lg-4 d-flex">
+                <div class="col-sm-12 col-lg-4 d-flex text-white">
                     <i class="fa fa-envelope-square mx-2"></i>
-                    <h6><a href="">gangireddy4712@gmail.com</a></h6>
+                    <h6><a href="" class="text-white">gangireddy4712@gmail.com</a></h6>
                 </div>
             </div>
         </div>
@@ -111,8 +120,8 @@
 
                 </p>
             </div>
-            <div class="row">
-                <button type="button" class="btn btn-outline-primary text-center" id="btn">Resume</button>
+            <div class="row text-center">
+                <button type="button" class="btn btn-outline-primary justify-content-center">Resume</button>
             </div>
         </div>
         <br>
@@ -153,49 +162,50 @@
             <br>
             <div class="row">
                 <div class="d-flex">
-                    <div class="col-6 col-lg-3 mx-3">
+                    <div class="col-6 col-lg-3">
                         <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png"
-                            height="100px" width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">HTML</h6>
-                    </div>
-                    <div class="col-6 col-lg-3 mx-4">
-                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
-                            height="100px" width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">CSS</h6>
-                    </div>
-                    <div class="col-6 col-lg-3 mx-4">
-                        <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png" height="100px"
-                            width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">BOOTSTRAP</h6>
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5" />
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">HTML</h6>
                     </div>
                     <div class="col-6 col-lg-3 mx-3">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">CSS</h6>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img src="https://miro.medium.com/max/1024/1*9HanDsRU11ZMsgDGJwN96w.png" height="100px"
+                            width="100px" alt="Responsive image"  class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">BOOTSTRAP</h6>
+                    </div>
+                    <div class="col-6 col-lg-3">
                         <img src="https://cdn.pixabay.com/photo/2017/03/30/17/41/javascript-2189147_960_720.png"
-                            height="100px" width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">JAVASCRIPT</h6>
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">JAVASCRIPT</h6>
                     </div>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="d-flex">
+                    <div class="col-6 col-lg-3">
+                        <img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5" />
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">GIT</h6>
+                    </div>
                     <div class="col-6 col-lg-3 mx-3">
-                        <img src="https://3.bp.blogspot.com/-xhNpNJJyQhk/XIe4GY78RQI/AAAAAAAAItc/ouueFUj2Hqo5dntmnKqEaBJR4KQ4Q2K3ACK4BGAYYCw/s1600/logo%2Bgit%2Bicon.png"
-                            height="100px" width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">GIT</h6>
+                        <img src="https://icons.iconarchive.com/icons/sicons/basic-round-social/512/jquery-icon.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">JQUERY</h6>
                     </div>
-                    <div class="col-6 col-lg-3 mx-4">
-                        <img src="https://www.kindpng.com/picc/m/445-4450254_jquery-logo-icon-svg-hd-png-download.png"
-                            height="100px" width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">JQUERY</h6>
-                    </div>
-                    <div class="col-6 col-lg-3 mx-4">
+                    <div class="col-6 col-lg-3">
                         <img src="https://cdn4.iconfinder.com/data/icons/logos-3/426/react_js-512.png" height="100px"
-                            width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">REACT JS</h6>
+                            width="100px" alt="Responsive image"  class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">REACT JS</h6>
                     </div>
-                    <div class="col-6 col-lg-3 mx-3">
-                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png" height="100px"
-                            width="100px" alt="Responsive image" />
-                        <h6 class="text-center font-weight-bold">REDUX</h6>
+                    <div class="col-6 col-lg-3">
+                        <img src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5 mr-5"/>
+                        <h6 class="text-center font-weight-bold ml-5 mr-5" id="tstyle">REDUX</h6>
                     </div>
                 </div>
             </div>
@@ -211,22 +221,23 @@
             <div class="row">
                 <div class="d-flex">
                     <div class="col-6 mx-3 col-lg-4">
-                        <img src="https://lh3.googleusercontent.com/proxy/oVgQWfnyTATLRCFSb6zxMIQQTop9mUkv4IgKrBNqgm7MROAIHEEssG8BeahNMS29ssaBDrZPfuwvQIYQRU4hdiJU9GX7KQBvPTT6"
-                            height="100px" width="100px" alt="Responsive image" class="ml-2" />
-                        <h6 class="text-center font-weight-bold"> Data Structures & Algorithms</h6>
+                        <img src="./source/logo-data-structures-algorithms.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5" />
+                        <h6 class="text-center font-weight-bold ml-2 " id="tstyle"> Data Structures & Algorithms</h6>
                     </div>
                     <div class="col-6 mx-3 col-lg-4">
-                        <img src="https://media.istockphoto.com/vectors/front-end-web-technology-shield-web-site-development-icon-vector-id1130365336"
-                            height="100px" width="100px" alt="Responsive image" class="ml-2" />
-                        <h6 class="text-center font-weight-bold">Front End</h6>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/bf/Front-end-logo-color%402x.png"
+                            height="100px" width="100px" alt="Responsive image" class="ml-5" />
+                        <h6 class="text-center font-weight-bold" id="tstyle">Front End</h6>
                     </div>
                     <div class="col-6 mx-3 col-lg-4">
                         <img src="https://miro.medium.com/max/1200/1*i1yreXvK0kGrS9_uy5qKHQ.jpeg" height="100px"
                             width="100px" alt="Responsive image" class="ml-5" />
-                        <h6 class="text-center font-weight-bold">React & redux</h6>
+                        <h6 class="text-center font-weight-bold" id="tstyle">React & redux</h6>
                     </div>
                 </div>
             </div>
+            <br>
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -234,16 +245,16 @@
                     </div>
                 </div>
                 <hr>
-                <div class="card  col-xl-3 col-lg-4 col-md-5 col-sm-6 h-100 m-5  shadow-lg p-4">
-                    <h4 class="card-title"><strong>FLIPKART PROJECT</strong></h4>
-                    <img alt="network" src="/home/masai/Pictures/flipkarthome.png" class="card-img-top mt-3 bounce"
-                        height="230px">
+                <div class="card  col-xl-3 col-lg-4 col-md-5 col-sm-6 m-5  shadow-lg p-4">
+                    <h4 class="card-title font-weight-bold">FLIPKART</h4>
+                    <img alt="network" src="./source/flipkarthome.png" class="card-img-top mt-3 bounce"
+                        height="150px">
                     <div class="card-body text-center">
                         <a class="btn " href="https://github.com/gangireddy4712/masai-sprint-4/tree/master/flipkart"
                             style="color: rgb(59, 89, 152);"><b>Source</b></a>
                     </div>
-                    <p class="card-text">Flipkart Replica is my bootstrap project. The data is displayed using
-                        javascript dynamically. </p>
+                    <p class="card-text"><small>Flipkart Replica is my bootstrap project. The data is displayed using
+                        javascript dynamically.</small> </p>
                     <div class="justify-content-center row mt-4">
                         <div style="margin-left: 30px;"><img
                                 src="https://p7.hiclipart.com/preview/793/545/309/javascript-portable-network-graphics-logo-clip-art-computer-icons-vue-js.jpg"
@@ -265,36 +276,37 @@
         <div class="row mr-5" id="stat">
             <div class="col-6 col-lg-3">
                 <div class="mt-5 ml-5 shadow-lg"
-                    style="width: 130px; height: 130px; border-radius: 50%; border: 15px solid rgb(18, 112, 236);">
-                    <h6 class="text-dark mt-4 ml-2">1000+<br>Hours of Coding</h6>
+                    style="width: 130px; height: 130px; border-radius: 50%; border: 17px solid rgb(236, 87, 18);">
+                    <h6 class="text-dark mt-3 ml-2">1000+<br>Hours of Coding</h6>
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="mt-5 ml-5 shadow-lg "
-                    style="width: 130px; height: 130px; border-radius: 50%; border: 15px solid rgb(18, 112, 236);">
-                    <h6 class="text-dark mt-4 ml-2 ">150+ <br>Hacker rank questions</h6>
+                    style="width: 130px; height: 130px; border-radius: 50%; border: 17px solid rgb(236, 87, 18);">
+                    <h6 class="text-dark mt-3 ml-2 ">150+ <br>Hacker rank questions</h6>
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="mt-5 ml-5 shadow-lg "
-                    style="width: 130px; height: 130px; border-radius: 50%; border: 15px solid rgb(18, 112, 236);">
-                    <h6 class="text-dark mt-4 ml-2">15+ <br>Projects</h6>
+                    style="width: 130px; height: 130px; border-radius: 50%; border: 17px solid rgb(236, 87, 18);">
+                    <h6 class="text-dark mt-4 ml-2">10+ <br>Projects</h6>
                 </div>
             </div>
             <div class="col-6 col-lg-3">
                 <div class="mt-5 ml-5 shadow-lg "
-                    style="width: 130px; height: 130px; border-radius: 50%; border: 15px solid rgb(18, 112, 236);">
-                    <h6 class="text-dark mt-4 ml-2">100+<br>hours of Soft skills</h6>
+                    style="width: 130px; height: 130px; border-radius: 50%; border: 17px solid rgb(236, 87, 18);">
+                    <h6 class="text-dark mt-3 ml-2">100+<br>hours of Soft skills</h6>
                 </div>
             </div>
         </div>
         <br>
-        <div class="row">
-            <div class="col">
-                <img src="/home/masai/Pictures/gitcintributions.png" height="200px" width="1000px" class="mt-5"
-                    class="img-fluid" alt="Responsive image" />
-            </div>
+        <div class="mt-5"></div>
+        <div class="calendar container my-5">
+
         </div>
+        <script>
+            GitHubCalendar(".calendar", "gangireddy4712", { responsive: true });
+        </script>
 
     </div>
     </div>
