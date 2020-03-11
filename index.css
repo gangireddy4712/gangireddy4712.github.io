@@ -1,0 +1,56 @@
+.img1>img {
+    border-radius: 50%;
+    border: 15px solid rgb(241, 63, 131)
+}
+
+#name {
+    font-family: 'Enriqueta';
+    font-size: 25px;
+    text-align: center;
+    /* color: */
+}
+
+#roll {
+    font-family: 'Enriqueta';
+    font-size : 16px;
+    font-weight: 100;
+    text-align: center;
+}
+
+#head1 {
+    font-family: 'Berkshire Swash';
+    text-align: center;
+    background-color: rgb(0, 89, 255);
+}
+
+#stat {
+    text-align: center;
+}
+
+#head2 {
+    font-family: 'Berkshire Swash';
+    text-align: center;
+    background-color: rgb(0, 89, 255);
+}
+
+#head3 {
+    font-family: 'Berkshire Swash';
+    text-align: center;
+    background-color: rgb(0, 89, 255);
+}
+
+#head4 {
+    font-family: 'Berkshire Swash';
+    background-color: rgb(0, 89, 255);
+}
+
+#tstyle {
+    font-family: 'Marko One';
+
+}
+
+#about {
+    /* font-family: 'Courgette', cursive; */
+    font-family: 'Lateef', cursive;
+    font-size: 25px;
+}
