@@ -1,17 +1,18 @@
 .img1>img {
     border-radius: 50%;
-    border: 15px solid rgb(241, 63, 131)
+    border: 15px solid rgb(241, 63, 131);
+    margin:15px;
 }
 
 #name {
-    font-family: 'Enriqueta';
+    font-family: 'Libre Baskerville', serif;
     font-size: 25px;
     text-align: center;
     /* color: */
 }
 
 #roll {
-    font-family: 'Enriqueta';
+    font-family: 'Libre Baskerville', serif;
     font-size : 16px;
     font-weight: 100;
     text-align: center;
@@ -54,3 +55,30 @@
     font-family: 'Lateef', cursive;
     font-size: 25px;
 }
+.circledot {
+    height: 20px;
+    width: 20px;
+    margin-left: 230px;
+    /* margin-top:-10px; */
+}
+.diagonalBox {
+    background: rgb(77, 187, 241);
+    padding: 85px 0px;
+    transform: skew(0deg, -5deg) translateY(-80px);
+    position: relative;
+    
+}
+.marginBox {
+    margin-top: -150px;
+    margin-left: 36%;
+    position: absolute;
+}
+#rimg {
+    height:150px;
+    width:150px;
+    border:15px solid rgb(240, 2, 145);
+}
+.cardtext {
+    font-family: 'Libre Baskerville', serif;
+}
+

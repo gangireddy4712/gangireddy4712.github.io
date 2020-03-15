@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Marko+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merienda+One&display=swap" rel="stylesheet">
@@ -22,27 +23,32 @@
 </head>
 
 <body>
+    <div class="diagonalBox"></div>
     <div class="container-fluid">
-        <div class="diagonalBox"></div>
+        
         <div class="container">
-            <div class="img1 text-center">
-                <img src="./source/gangireddy.jpeg" height="150px" width="150px" />
+            <div class="marginBox text-center">
+                <img id="rimg" class="text-center rounded-circle"
+                    src="./source/gangireddy.jpeg">
+            </div>
+            <div class="offset-4">
+                <div style="background:rgb(240, 2, 145);" class="rounded-circle circledot"></div>
             </div>
             <br>
-            <h1 id="name">Gangireddy Kondreddy</h1>
-            <h5 id="roll">Full Stack Developer</h5>
+            <h1 id="name" class="text-primary">Gangireddy Kondreddy</h1>
+            <h5 id="roll" class="text-primary">Frontend Developer</h5>
             <div class="offset-3">
                 <div class="row py-3">
-                    <div class="col-lg-2 d-flex">
-                        <i class="fa fa-map-marker mx-2"></i>
+                    <div class="col-lg-3 d-flex">
+                        <i class="fa fa-map-marker mx-2 text-info"></i>
                         <small class="text-info">Banglore,India</small>
                     </div>
                     <div class="col-lg-3 d-flex">
-                        <i class="fa fa-phone-square mx-2"></i>
+                        <i class="fa fa-phone-square mx-2 text-info"></i>
                         <small class="text-info">+91 911 0379 304</small>
                     </div>
-                    <div class="col-lg-2 d-flex">
-                        <i class="fa fa-envelope-square mx-2"></i>
+                    <div class="col-lg-3 d-flex">
+                        <i class="fa fa-envelope-square mx-2 text-info"></i>
                         <small class="text-info"><a href="">gangireddy4712@gmail.com</a></small>
                     </div>
                 </div>
@@ -50,7 +56,7 @@
         </div>
         <br>
         <div class="container">
-            <div class="d-flex  text-center offset-3">
+            <div class="d-flex  offset-3">
                 <div class="col-2">
                     <a href="https://www.linkedin.com/in/gangi-reddy-kondreddy-856760197/">
                         <image src="https://i.ya-webdesign.com/images/linked-in-icon-png-5.png" height="30px"
@@ -88,7 +94,7 @@
             </div>
         </div>
         <div class="row offset-5">
-            <button type="button" class="btn btn-outline-success font-weight-bold ml-lg-5">Resume</button>
+            <button type="button" class="btn btn-outline-success font-weight-bold ml-lg-1"> Download Resume</button>
         </div>
         <br>
         <hr>
@@ -189,13 +195,14 @@
         <div class="container">
             <div class="row">
                 <div class="card  col-xl-3 col-lg-4 col-md-5 col-sm-6 p-3">
-                    <h4 class="card-title font-weight-bold">Movie Database</h4>
+                    <h4 class="card-title font-weight-bold cardtext text-info text-center">Movie Database</h4>
                     <img alt="network" src="./source/moviedb.png" class="card-img-top mt-3 bounce" height="150px">
                     <div class="card-body text-center">
                         <a class="btn " href="https://github.com/gangireddy4712/masai-sprint-4/tree/master/flipkart"
                             style="color: rgb(59, 89, 152);"><b>Source</b></a>
                     </div>
-                    <p class="card-text"><small>MovieDatabase is my evaluation project.data is fetching from API and displayed dynamically by using javascript.</small> </p>
+                    <p class="card-text"><small>MovieDatabase is my evaluation project.data is fetching from API and
+                            displayed dynamically by using javascript.</small> </p>
                     <div class="justify-content-center row mt-4">
                         <div style="margin-left: 20px;"><img
                                 src="https://p7.hiclipart.com/preview/793/545/309/javascript-portable-network-graphics-logo-clip-art-computer-icons-vue-js.jpg"
@@ -209,7 +216,7 @@
                 </div>
 
                 <div class="card  col-xl-3 col-lg-4 col-md-5 col-sm-6 p-3">
-                    <h4 class="card-title font-weight-bold">Flipkart</h4>
+                    <h4 class="card-title font-weight-bold cardtext text-info text-center">Flipkart</h4>
                     <img alt="network" src="./source/flipkarthome.png" class="card-img-top mt-3 bounce" height="150px">
                     <div class="card-body text-center">
                         <a class="btn " href="https://github.com/gangireddy4712/masai-sprint-4/tree/master/flipkart"
@@ -229,7 +236,7 @@
                     </div>
                 </div>
                 <div class="card  col-xl-3 col-lg-4 col-md-5 col-sm-6 p-3">
-                    <h4 class="card-title font-weight-bold">Todo List</h4>
+                    <h4 class="card-title font-weight-bold cardtext text-info text-center">Todo List</h4>
                     <img alt="network" src="./source/todoapp.png" class="card-img-top mt-3 bounce" height="150px">
                     <div class="card-body text-center">
                         <a class="btn " href="https://github.com/gangireddy4712/masai-sprint-4/tree/master/flipkart"
@@ -238,8 +245,8 @@
                     <p class="card-text"><small></small> </p>
                     <div class="justify-content-center row mt-4">
                         <div style="margin-left: 20px;"><img
-                            src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
-                            alt="" style="width: 30px;"></div>
+                                src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt=""
+                                style="width: 30px;"></div>
                         <div style="margin-left: 20px;"><img
                                 src="https://p7.hiclipart.com/preview/793/545/309/javascript-portable-network-graphics-logo-clip-art-computer-icons-vue-js.jpg"
                                 alt="" style="width: 30px;"></div>
@@ -265,25 +272,25 @@
                 <div class="row mr-5" id="stat">
                     <div class="col-6 col-lg-3">
                         <div class="mt-5 ml-5 shadow-lg"
-                            style="width: 130px; height: 130px; border-radius: 50%; background:turquoise; border: 17px solid rgb(236, 87, 18);">
+                            style="width: 130px; height: 130px; border-radius: 50%; background:rgb(91, 217, 240); border: 17px solid rgb(236, 87, 18);">
                             <h6 class="text-dark mt-3 ml-2">1000+<br>Hours of Coding</h6>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="mt-5 ml-5 shadow-lg "
-                            style="width: 130px; height: 130px; border-radius: 50%; background:turquoise; border: 17px solid rgb(236, 87, 18);">
+                            style="width: 130px; height: 130px; border-radius: 50%; background:rgb(91, 217, 240); border: 17px solid rgb(236, 87, 18);">
                             <h6 class="text-dark mt-3 ml-2 ">150+ <br>Hacker rank questions</h6>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="mt-5 ml-5 shadow-lg "
-                            style="width: 130px; height: 130px; border-radius: 50%; background:turquoise; border: 17px solid rgb(236, 87, 18);">
+                            style="width: 130px; height: 130px; border-radius: 50%; background:rgb(91, 217, 240); border: 17px solid rgb(236, 87, 18);">
                             <h6 class="text-dark mt-4 ml-2">10+ <br>Projects</h6>
                         </div>
                     </div>
                     <div class="col-6 col-lg-3">
                         <div class="mt-5 ml-5 shadow-lg "
-                            style="width: 130px; height: 130px; border-radius: 50%; background:turquoise; border: 17px solid rgb(236, 87, 18);">
+                            style="width: 130px; height: 130px; border-radius: 50%; background:rgb(91, 217, 240); border: 17px solid rgb(236, 87, 18);">
                             <h6 class="text-dark mt-3 ml-2">100+<br>hours of Soft skills</h6>
                         </div>
                     </div>
