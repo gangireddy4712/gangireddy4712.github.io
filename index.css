@@ -19,6 +19,7 @@
 }
 
 #head1 {
+    font-size:32px;
     font-family: 'Berkshire Swash';
     text-align: center;
     background-color: rgb(0, 89, 255);
@@ -29,25 +30,27 @@
 }
 
 #head2 {
+    font-size:32px;
     font-family: 'Berkshire Swash';
     text-align: center;
     background-color: rgb(0, 89, 255);
 }
 
 #head3 {
+    font-size:32px;
     font-family: 'Berkshire Swash';
     text-align: center;
     background-color: rgb(0, 89, 255);
 }
 
 #head4 {
+    font-size:32px;
     font-family: 'Berkshire Swash';
     background-color: rgb(0, 89, 255);
 }
 
 #tstyle {
     font-family: 'Marko One';
-
 }
 
 #about {
@@ -58,8 +61,7 @@
 .circledot {
     height: 20px;
     width: 20px;
-    margin-left: 230px;
-    /* margin-top:-10px; */
+    margin-left: 220px;
 }
 .diagonalBox {
     background: rgb(77, 187, 241);
@@ -70,15 +72,21 @@
 }
 .marginBox {
     margin-top: -150px;
-    margin-left: 36%;
+     /* margin-left:30%; */
+    margin-left: 45%;
     position: absolute;
 }
+
 #rimg {
     height:150px;
     width:150px;
+    /* justify-content:center; */
     border:15px solid rgb(240, 2, 145);
 }
 .cardtext {
     font-family: 'Libre Baskerville', serif;
 }
+
+  
+
 
